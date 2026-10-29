@@ -1,0 +1,21 @@
+question_id,category,question,expected_source_document,expected_page,expected_answer_or_behavior
+Q01,direct,What is machine learning?,01_machine_learning_fundamentals.pdf,1,Learns patterns from examples rather than only hand-written rules.
+Q02,direct,Which three common learning settings are listed?,01_machine_learning_fundamentals.pdf,1,"Supervised, unsupervised, and reinforcement learning."
+Q03,direct,What does supervised learning use?,01_machine_learning_fundamentals.pdf,1,Labelled examples.
+Q04,direct,What is the difference between classification and regression?,01_machine_learning_fundamentals.pdf,2,Classification predicts a category; regression predicts a numeric value.
+Q05,direct,What is accuracy?,01_machine_learning_fundamentals.pdf,2,Fraction of predictions that are correct.
+Q06,direct,How is precision calculated?,01_machine_learning_fundamentals.pdf,2,True positives divided by predicted positives.
+Q07,direct,What is overfitting?,01_machine_learning_fundamentals.pdf,3,Fitting noise/details in training data and performing poorly on new examples.
+Q08,direct,What is TF-IDF used for?,02_retrieval_and_rag.pdf,1,Weights terms based on frequency in passage and rarity across collection.
+Q09,direct,What does RAG stand for?,02_retrieval_and_rag.pdf,2,Retrieval-augmented generation.
+Q10,direct,What should an assistant do when evidence is missing?,03_ai_application_testing.pdf,2,Decline and say documents do not provide sufficient evidence.
+Q11,multi_passage,"How are precision and recall different, and what does each denominator represent?",01_machine_learning_fundamentals.pdf,2,Precision: predicted positives; recall: actual positives.
+Q12,multi_passage,How do chunking and cosine similarity work together in retrieval?,02_retrieval_and_rag.pdf,1,Chunking creates passages; similarity ranks passages against a query.
+Q13,multi_passage,"What should a grounded RAG answer combine, and how should it cite evidence?",02_retrieval_and_rag.pdf,2-3,Retrieved passages support an answer; cite document and page.
+Q14,multi_passage,What should AI evaluation measure and how can latency be measured?,03_ai_application_testing.pdf,1-3,"Correctness, source accuracy, response time, abstention; use monotonic clock."
+Q15,multi_passage,How should an assistant handle prompt injection in documents?,03_ai_application_testing.pdf,2,Treat embedded instructions as untrusted data; use document facts only.
+Q16,absent,What exact accuracy percentage did the sample classifier achieve?,,,Absent; assistant should abstain.
+Q17,absent,Who authored the first paper on RAG?,,,Absent; assistant should abstain.
+Q18,absent,What is the exact number of students in the course?,,,Absent; assistant should abstain.
+Q19,absent,Which GPU model trained the sample model?,,,Absent; assistant should abstain.
+Q20,absent,On what date will the university conduct its next examination?,,,Absent; assistant should abstain.
